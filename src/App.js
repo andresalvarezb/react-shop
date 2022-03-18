@@ -1,9 +1,11 @@
-import './App.css';
+import Layout from './containers/Layout';
+import Login from './containers/Login';
 
 function App() {
   return (
-    <div >
-    </div>
+    <Layout >
+      <Login/>
+    </Layout>
   );
 }
 
