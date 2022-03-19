@@ -2,11 +2,13 @@ import React from 'react'
 import ProductInfo from '../../components/ProductInfo'
 import './productDetail.css'
 
+import iconClose from '../../assets/icons/icon_close.png'
+
 function ProductDetail() {
     return (
         <aside className="ProductDetail">
             <div className="ProductDetail-close">
-                <img src="./icons/icon_close.png" alt="close" />
+                <img src={iconClose} alt="close" />
             </div>
             <ProductInfo />
         </aside>

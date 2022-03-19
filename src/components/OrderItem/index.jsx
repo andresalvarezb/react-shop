@@ -1,6 +1,8 @@
 import React from 'react'
 import './orderItem.css'
 
+import iconClose from '../../assets/icons/icon_close.png'
+
 function OrderItem() {
     return (
         <div className="OrderItem">
@@ -9,7 +11,7 @@ function OrderItem() {
             </figure>
             <p>Bike</p>
             <p>$30,00</p>
-            <img src="./icons/icon_close.png" alt="close" />
+            <img src={iconClose} alt="close" />
         </div>
     )
 }
