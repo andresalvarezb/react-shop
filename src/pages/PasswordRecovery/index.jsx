@@ -1,7 +1,7 @@
 import React from 'react'
-import './recoveryPassword.css'
+import './passwordRecovery.css'
 
-function RecoveryPassword() {
+function PasswordRecovery() {
     return (
         <div className="login">
             <div className="form-container">
@@ -25,4 +25,4 @@ function RecoveryPassword() {
     )
 }
 
-export default RecoveryPassword
+export default PasswordRecovery
