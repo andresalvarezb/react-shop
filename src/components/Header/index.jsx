@@ -28,7 +28,6 @@ function Header() {
                     </li>
                 </ul>
             </div>
-
             <div className="navbar-right">
                 <ul>
                     <li className="navbar-email">platzi@example.com</li>

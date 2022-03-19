@@ -1,10 +1,18 @@
 import React from 'react'
+import OrderItem from '../../components/OrderItem'
 import './orders.css'
 
 function Orders() {
-  return (
-    <div>Orders</div>
-  )
+    return (
+        <div className="Orders">
+            <div className="Orders-container">
+                <h1 className="title">My orders</h1>
+                <div className="Orders-content">
+                    <OrderItem />
+                </div>
+            </div>
+        </div>
+    )
 }
 
 export default Orders

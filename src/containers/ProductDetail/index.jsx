@@ -1,10 +1,16 @@
 import React from 'react'
+import ProductInfo from '../../components/ProductInfo'
 import './productDetail.css'
 
 function ProductDetail() {
-  return (
-    <div>ProductDetail</div>
-  )
+    return (
+        <aside className="ProductDetail">
+            <div className="ProductDetail-close">
+                <img src="./icons/icon_close.png" alt="close" />
+            </div>
+            <ProductInfo />
+        </aside>
+    )
 }
 
 export default ProductDetail

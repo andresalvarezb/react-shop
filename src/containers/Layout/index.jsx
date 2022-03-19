@@ -1,4 +1,5 @@
 import React from 'react'
+import './layout'
 
 function Layout({children}) {
   return (
