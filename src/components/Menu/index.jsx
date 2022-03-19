@@ -1,6 +1,8 @@
 import React from 'react'
 import './menu.css'
 
+
+//  ? Stateless
 function Menu() {
     return (
         <div className="Menu">
