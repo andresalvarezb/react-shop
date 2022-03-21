@@ -16,7 +16,7 @@ function useFetchData(api) {
                     setProducts(data)
                 }
             } catch (error) {
-                
+
                 console.error('[FETCH DATA ERROR]: ', error);
                 return controller.abort();
             }
