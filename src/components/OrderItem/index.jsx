@@ -3,14 +3,16 @@ import './orderItem.css'
 
 import iconClose from '../../assets/icons/icon_close.png'
 
-function OrderItem() {
+// ? stateless
+function OrderItem({product}) {
+    const {images, title, price} = product;
     return (
         <div className="OrderItem">
             <figure>
-                <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="bike" />
+                <img src={images[0]} alt={title} />
             </figure>
-            <p>Bike</p>
-            <p>$30,00</p>
+            <p>{title}</p>
+            <p>${price}</p>
             <img src={iconClose} alt="close" />
         </div>
     )
